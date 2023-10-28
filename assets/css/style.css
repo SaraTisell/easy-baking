@@ -14,8 +14,7 @@ body {
 }
 /* Header */
 header {
-    padding: 5px;
-
+    display: flex;
 }
 
 header a {
@@ -26,18 +25,27 @@ header a {
 /*Logo styles*/
 #logo {
     width: 60%;
+    padding: 5px;
 }
 
-/* Nav styles*/
-#nav {
+/* Menu styles*/
+#menu {
     list-style-type: none;
 }
+
+.active {
+    text-decoration: underline;
+}
+
+
+
 
 /* Main Content*/
 
 main {
     /* Make main element take up any surplus space to push footer to bottom */
     flex: 1 0 auto;
+    background-color: aqua;
 }
 
 /* Footer */
