@@ -18,9 +18,19 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color:#9f8184
+}
+
 /*Logo styles*/
 #logo {
     width: 60%;
+}
+
+/* Nav styles*/
+#nav {
+    list-style-type: none;
 }
 
 /* Main Content*/
