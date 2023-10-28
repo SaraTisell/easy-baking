@@ -5,19 +5,34 @@
     box-sizing: border-box;
 }
 
+/* General body styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
 /* Header */
 header {
+    padding: 5px;
 
+}
+
+/*Logo styles*/
+#logo {
+    width: 60%;
 }
 
 /* Main Content*/
 
 main {
-
+    /* Make main element take up any surplus space to push footer to bottom */
+    flex: 1 0 auto;
 }
 
 /* Footer */
 
 footer {
     background-color: #F57583;
+    height: 50px;
 }
