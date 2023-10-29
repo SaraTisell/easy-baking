@@ -11,12 +11,14 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
+    
 }
 /* Header */
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 header a {
@@ -35,6 +37,8 @@ header a {
     list-style-type: none;
     padding-right: 5px;
     width: 30%;
+    
+    
 }
 
 .active {
