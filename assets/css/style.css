@@ -42,8 +42,6 @@ header a {
     list-style-type: none;
     padding-right: 5px;
     width: 30%;
-    
-    
 }
 
 .active {
@@ -53,7 +51,7 @@ header a {
 
 
 
-/* Main Content*/
+/* Main Content General*/
 
 main {
     /* Make main element take up any surplus space to push footer to bottom */
@@ -61,6 +59,7 @@ main {
     background-color: #ffffff;
 }
 
+/* Main content HOME*/
 /* Banner styles for home page*/
 .div-one {
     background-image: url("../images/siami-tan-Nwb9LRfG0zQ-unsplash.jpg");
@@ -83,6 +82,15 @@ main {
 
 }
 
+/* Main content RECIPES*/
+
+.recipes {
+    padding: 20px;
+}
+
+.recipes img {
+    width: 60%;
+}
 
 /* Footer */
 
