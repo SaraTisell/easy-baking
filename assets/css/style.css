@@ -69,9 +69,10 @@ main {
 }
 
 /* Main content HOME*/
-/* Banner styles for home page
+/* Banner styles for home page */
 .div-one {
-    background-image: url("../images/siami-tan-Nwb9LRfG0zQ-unsplash.jpg");
+    display: flex;
+    background-image: url("../images/siami-tan-Nwb9LRfG0zQ-unsplash.cropped.webp");
     background-size: cover;
     width: 100%;
     height: 25vh;
@@ -79,34 +80,46 @@ main {
     border-bottom: 5px solid #F57583;
 }
 
-.banner-text {
+.banner-text-background {
+    background-color: #F57583;
+    opacity: 0.9;
+    width: 200px;
+    height: 80px;
     display: flex;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #F57583;
-    font-family: 'Voltaire', sans-serif;
-    font-style: bold;
+    align-self: center;
+}
+
+.banner-text {
+    padding: 10px;
+    width: 200px;
+    height: 80px;
     color: #ffffff;
+    font-weight: bold;
+    text-align: center;
 
-}*/
+}
 
+
+
+/*Banner test 
 .banner img {
     width: 100%;
     height: auto;
 }
 
-.banner {
-    position: relative;
-}
-
-.banner figcaption {
+figcaption {
     position: absolute;
+    display: block;
+    float: center;
     top: 50%;
     bottom: 50%;
     color: #ffffff;
     background-color: #F57583;
-}
+} 
+
+.banner {
+    position: relative;
+} */
 
 /* Main content RECIPES*/
 
@@ -137,7 +150,7 @@ main {
     
 }
 
-ul li::before {
+.recipes ul li::before {
     content: "\2022";
     color: #F57583;
     font-weight: bold;
@@ -155,11 +168,11 @@ ul li::before {
     list-style: none;
 
 }
-ol li {
+.recipes ol li {
     counter-increment: my-awesome-counter;
 }
 
-ol li::before {
+.recipes ol li::before {
     content: counter(my-awesome-counter) ". ";
     color: #F57583;
     font-weight: bold;
