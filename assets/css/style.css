@@ -60,7 +60,7 @@ main {
 }
 
 /* Main content HOME*/
-/* Banner styles for home page*/
+/* Banner styles for home page
 .div-one {
     background-image: url("../images/siami-tan-Nwb9LRfG0zQ-unsplash.jpg");
     background-size: cover;
@@ -80,12 +80,30 @@ main {
     font-style: bold;
     color: #ffffff;
 
+}*/
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner figcaption {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    color: #ffffff;
+    background-color: #F57583;
 }
 
 /* Main content RECIPES*/
 
 .recipes {
     padding: 20px;
+    font-size: smaller;
 }
 
 .recipes img {
