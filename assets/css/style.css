@@ -115,8 +115,6 @@ main {
     color: #ffffff;
 }
 .recipes {
-
-    flex: row;
     padding: 20px;
     font-size: smaller;
 }
@@ -127,7 +125,45 @@ main {
     margin: auto;
     border: 2px solid #F57583;
 }
+.h2-one {
+    color: #F57583;
+}
+.recipes ul {
+    border: 2px solid #F57583;
+    box-shadow: 2px 2px #9f8184;
+    list-style-position: inside;
+    padding-left: 5px;
+    list-style: none;
+    
+}
 
+ul li::before {
+    content: "\2022";
+    color: #F57583;
+    font-weight: bold;
+    font-size: large;
+    padding-right: 2px;
+}
+
+
+
+.recipes ol {
+    border: 2px solid #F57583;
+    box-shadow: 2px 2px #9f8184;
+    list-style-position: inside;
+    padding-left: 5px;
+    list-style: none;
+
+}
+ol li {
+    counter-increment: my-awesome-counter;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #F57583;
+    font-weight: bold;
+}
 /* Footer */
 
 footer {
