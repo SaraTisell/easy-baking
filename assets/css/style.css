@@ -127,11 +127,11 @@ figcaption {
     background-color: #9f8184;
     color: #ffffff;
 }
-.recipes {
+.recipes, .recipes-two {
     padding: 20px;
     font-size: smaller;
 }
-
+/* Recipes color #f57583*/
 .recipes img {
     width: 70%;
     display: block;
@@ -141,9 +141,10 @@ figcaption {
 .h2-one {
     color: #F57583;
 }
+
 .recipes ul {
     border: 2px solid #F57583;
-    box-shadow: 2px 2px #9f8184;
+    box-shadow: 2px 2px #ccc3c3;
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
@@ -162,7 +163,7 @@ figcaption {
 
 .recipes ol {
     border: 2px solid #F57583;
-    box-shadow: 2px 2px #9f8184;
+    box-shadow: 2px 2px #ccc3c3;
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
@@ -175,6 +176,57 @@ figcaption {
 .recipes ol li::before {
     content: counter(my-awesome-counter) ". ";
     color: #F57583;
+    font-weight: bold;
+}
+
+/* Recipes color #9f8184*/
+.recipes-two img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border: 2px solid #9f8184;
+}
+
+
+.h2-two {
+    color: #9f8184;
+}
+
+.recipes-two ul {
+    border: 2px solid #9f8184;
+    box-shadow: 2px 2px #ccc3c3;
+    list-style-position: inside;
+    padding-left: 5px;
+    list-style: none;
+
+}
+
+.recipes-two ul li::before {
+    content: "\2022";
+    color: #9f8184;
+    font-weight: bold;
+    font-size: large;
+    padding-right: 2px;
+}
+
+
+
+.recipes-two ol {
+    border: 2px solid #9f8184;
+    box-shadow: 2px 2px #ccc3c3;
+    list-style-position: inside;
+    padding-left: 5px;
+    list-style: none;
+
+}
+
+.recipes-two ol li {
+    counter-increment: my-awesome-counter;
+}
+
+.recipes-two ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #9f8184;
     font-weight: bold;
 }
 /* Footer */
