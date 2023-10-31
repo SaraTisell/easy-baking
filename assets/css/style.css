@@ -102,20 +102,28 @@ main {
 
 }
 
-/* Lemon quote */
-/* test
-.lemon img {
-    width: 50%;
-}
+/* About Easy Baking */
 
-#lemon {
-    font-size: small;
-    position: relative;
-    top: 50%;
+.div-two {
     
 }
-*/
 
+.img-in-row {
+    display: flex;
+    object-fit: contain;
+
+
+}
+
+.div-two img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 2px solid #9f8184;
+    
+}
+
+/* Lemon quote */
 #wrapper {
     display: flex;
     justify-content: left;
@@ -126,17 +134,17 @@ main {
     width: 50%;
     background-image: url("../images/eggbank-ohNxxapID_k-unsplash.jpg");
     background-size: cover;
-    overflow: visible;
     position: relative;
 }
 
 #child {
     position: absolute;
-    width: 250px;
+    width: 240px;
     top: 35%;
-    font-size: large;
-    left: 10%;
+    font-size: medium;
+    left: 5%;
     color: #9f8184;
+    
     
 }
 
