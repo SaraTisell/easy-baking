@@ -1,5 +1,5 @@
 /*Google Fonts Import*/
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;600&family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&family=Voltaire&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -55,7 +55,7 @@ header a {
 /* Menu styles*/
 #menu {
     list-style-type: none;
-    padding-right: 5px;
+    padding-right: 10px;
     width: 30%;
 }
 
@@ -104,23 +104,31 @@ main {
 
 /* About Easy Baking */
 
-.div-two {
-    
+.div-two h2 {
+    padding-bottom: 5px;
 }
 
 .img-in-row {
     display: flex;
     object-fit: contain;
-
-
+    border: 2px solid #9f8184;
 }
 
 .div-two img {
     width: 100%;
     height: auto;
     vertical-align: middle;
-    border: 2px solid #9f8184;
-    
+    padding: 2px;
+    background-color: #9f8184;
+}
+
+.div-three {
+    background-color: #9f8180;
+    text-align: center;
+}
+
+.div-three p {
+    font-weight: 400;
 }
 
 /* Lemon quote */
@@ -287,6 +295,7 @@ figcaption {
     padding: 20px 10% 20px 10%;
     flex-grow: 1;
     color: #ffffff;
+    height: 100vh;
 
 }
 
