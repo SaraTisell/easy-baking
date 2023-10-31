@@ -124,17 +124,22 @@ main {
 
 #parent {
     width: 50%;
-    background-image: url("../images/elena-kloppenburg-jw9F8vNZDSo-unsplash.jpg");
+    background-image: url("../images/eggbank-ohNxxapID_k-unsplash.jpg");
     background-size: cover;
+    overflow: visible;
+    position: relative;
 }
 
 #child {
-    position: relative;
-    top: 30%;
-    font-size: medium;
-    left: 50%;
+    position: absolute;
+    width: 250px;
+    top: 35%;
+    font-size: large;
+    left: 10%;
+    color: #9f8184;
     
 }
+
 
 /*Banner test 
 .banner img {
