@@ -27,11 +27,23 @@ h1 {
     font-size: x-large;
     text-align: center;
     font-family: 'Voltaire', sans-serif;
+    font-weight: 400;
 }
 h2 {
     font-size: large;
     text-align: center;
 }
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
 /* Header */
 header {
     display: flex;
@@ -104,6 +116,7 @@ main {
 
 /* About Easy Baking */
 
+/* Fika section with images*/
 .div-two h2 {
     padding-bottom: 5px;
 }
@@ -125,35 +138,92 @@ main {
 .div-three {
     background-color: #9f8180;
     text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0.5px 2px #9e81819f;
+    
 }
 
 .div-three p {
+    box-sizing: border-box;
+    padding: 5px;
     font-weight: 400;
+    font-size: 14px;
+    text-shadow: 1px 1px #815f5f9f;
+}
+
+/* Link to recipes */
+.div-four p {
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #F57583;
+    color: #ffffff;
+    box-shadow: 0.5px 2px #9e81819f;
+    text-shadow: 1px 1px #9e81819f;
+    margin-bottom: 20px;
+}
+
+/* Raspberry quote */
+#wrapper-raspberry {
+    display: flex;
+    justify-content: right;
+    height: 20vh;
+}
+
+#parent-raspberry {
+    width: 50%;
+    background-image: url("../images/raspberry.webp");
+    background-size: cover;
+    position: relative;
+}
+
+#child-raspberry {
+    position: absolute;
+    width: 240px;
+    top: 35%;
+    font-size: medium;
+    right: 5%;
+    color: #F57583;
+    text-shadow: 1px 1px #9e81819f;
+
+
 }
 
 /* Lemon quote */
-#wrapper {
+#wrapper-lemon {
     display: flex;
     justify-content: left;
     height: 20vh;
 }
 
-#parent {
+#parent-lemon {
     width: 50%;
     background-image: url("../images/lemon-slice.webp");
     background-size: cover;
     position: relative;
 }
 
-#child {
+#child-lemon {
     position: absolute;
     width: 240px;
     top: 35%;
     font-size: medium;
     left: 5%;
     color: #9f8184;
+    text-shadow: 1px 1px #9e81819f;
     
     
+}
+
+.div-six {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-six img {
+    width: 50%;
+    padding: 2px;
+
 }
 
 
