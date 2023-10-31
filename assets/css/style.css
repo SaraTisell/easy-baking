@@ -34,8 +34,18 @@ h2 {
     text-align: center;
 }
 
+h3{
+    font-size: larger;
+    color: #F57583;
+    text-align: center;
+}
+
 p {
     text-align: center;
+}
+.smaller-text {
+    font-size: 12px;
+    color:#9f8180
 }
 
 a {
@@ -117,14 +127,16 @@ main {
 /* About Easy Baking */
 
 /* Fika section with images*/
-.div-two h2 {
-    padding-bottom: 5px;
+.div-two h1, h2 {
+    color: #F57583;
+    text-shadow: 1px 1px #acacac9f;
 }
 
 .img-in-row {
     display: flex;
     object-fit: contain;
     border: 2px solid #9f8184;
+    margin-top: 10px;
 }
 
 .div-two img {
@@ -146,7 +158,7 @@ main {
 .div-three p {
     box-sizing: border-box;
     padding: 5px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     text-shadow: 1px 1px #815f5f9f;
 }
@@ -213,6 +225,10 @@ main {
     text-shadow: 1px 1px #9e81819f;
     
     
+}
+
+.raspberry-chocolate {
+    margin-top: 20px;
 }
 
 .div-six {
