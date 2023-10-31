@@ -75,7 +75,7 @@ main {
 /* Banner styles for home page */
 .div-one {
     display: flex;
-    background-image: url("../images/siami-tan-Nwb9LRfG0zQ-unsplash.cropped.webp");
+    background-image: url("../images/banner-for-easy-baking.webp");
     background-size: cover;
     width: 100%;
     height: 25vh;
@@ -132,7 +132,7 @@ main {
 
 #parent {
     width: 50%;
-    background-image: url("../images/eggbank-ohNxxapID_k-unsplash.jpg");
+    background-image: url("../images/lemon-slice.webp");
     background-size: cover;
     position: relative;
 }
@@ -281,7 +281,7 @@ figcaption {
 /* Main content CONTACT*/
 
 #contact {
-    background-image: url("../images/pexels-jess-bailey-designs-853004.jpg");
+    background-image: url("../images/background-pink-cupcake.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
