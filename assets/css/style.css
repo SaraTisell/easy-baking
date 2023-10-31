@@ -21,6 +21,7 @@ body {
 h1 {
     font-size: x-large;
     text-align: center;
+    font-family: 'Voltaire', sans-serif;
 }
 h2 {
     font-size: large;
@@ -232,13 +233,44 @@ figcaption {
 
 /* Style for contact page*/
 
-.contct-form {
-    display: flex;
-    background-color: #9f8184;
+#contact {
+    background-image: url("../images/pexels-jess-bailey-designs-853004.jpg");
     background-size: cover;
-    width: 100%;
-    height: 50vh;
+    background-position: 75%;
+    padding: 20px 10% 20px 10%;
+    flex-grow: 1;
+    color: #ffffff;
 
+}
+
+#contact-form {
+    border: 2px solid #F57583;
+    background: #F5758395;
+    padding: 5px;
+    
+}
+
+.text-input {
+   background: transparent; 
+   border: 2px solid #ffffff;
+   padding: 5px;
+}
+
+.label-text {
+    font-family: 'Voltaire', sans-serif;
+}
+
+button {
+    border: 2px solid #F57583;
+    background-color: #F57583;
+    padding: 5px;
+    color: #ffffff;
+}
+
+form p {
+    font-size: small;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 /* Footer */

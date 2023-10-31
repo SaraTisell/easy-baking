@@ -38,26 +38,28 @@
 
     <!-- Main content -->
     <main>
-        <section class="contact-form">
-            <h1>SEND US A MESSAGE</h1>
-            <p id="contact-text">Do you have any qestions about the recipies or want some advice how to make the best out of your baking? Maybe you have a opinion how we can do the site better? <br> Do not hesitate to contact us, we would love your feedback!</p>
-
+        <section id="contact">
     <!-- Contact Form -->        
-            <form action="thanks.html">
-                <label for="f-name">First Name:</label>
+            <form id="contact-form" action="thanks.html">
+                <h1>SEND US A MESSAGE</h1>
+                <p id="contact-text">Do you have any qestions about the recipies or want some advice how to make the best out of your
+                    baking? Maybe you have a opinion how we can do the site better? <br> Do not hesitate to contact us, we would love
+                    your feedback!</p>
+                <label class="label-text" for="f-name">First Name</label>
                 <br>
-                <input type="text" id="f-name" name="f-name" placeholder="Your first name" required>
+                <input class="text-input" type="text" id="f-name" name="f-name" placeholder="Your first name" required>
                 <br>
-                <label for="l-name">Last Name:</label>
+                <label class="label-text" for="l-name">Last Name</label>
                 <br>
-                <input type="text" id="l-name" name="l-name" placeholder="Your last name" required>
+                <input class="text-input" type="text" id="l-name" name="l-name" placeholder="Your last name" required>
                 <br>
-                <label for="email">Email Address:</label>
+                <label class="label-text" for="email">Email Address</label>
                 <br>
-                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                <input class="text-input" type="email" id="email" name="email" placeholder="Your email address" required>
                 <br>
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+                <label class="label-text" for="message">Message</label>
+                <br>
+                <textarea class="text-input" name="message" id="message" cols="25" rows="10" placeholder="Type your message here" required></textarea>
                 <br>
     <!-- Button to submit contact form -->            
                 <button type="submit">Submit</button>
