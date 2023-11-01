@@ -33,7 +33,7 @@ h2 {
 h3 {
     font-family: 'Voltaire', sans-serif;
     font-size: larger;
-    color: #F57583;
+    color: #F14F61;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ main {
 /* Fika section with images*/
 .div-two h1,
 h2 {
-    color: #F57583;
+    color: #F14F61;
     text-shadow: 1px 1px #acacac9f;
 }
 
@@ -274,7 +274,7 @@ h2 {
 }
 
 .h2-one {
-    color: #F57583;
+    color: #F14F61;
 }
 
 .recipes h3 {
@@ -327,7 +327,7 @@ h2 {
 }
 
 .h2-two {
-    color: #9f8184;
+    color: #40393A;
 }
 
 .recipes-two h3 {
@@ -410,6 +410,7 @@ button {
     padding: 5px;
     color: #ffffff;
     font-weight: 600;
+    font-size: 16px;
 }
 
 form p {
