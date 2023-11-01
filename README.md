@@ -14,12 +14,16 @@ Easy baking's website provides its users with delicious baking recipes that are 
 ![Colorscheme](document/images_readme/easy-baking-color-scheme.png)
 
 ### Typography
+
 Sans-serif fonts were imported from Google Fonts
 The choosen fonts will give advantage for the site due to its clean look due and its accessibility.
-*Voltaire - Headings and Menu
-*Signika - Paragraps
+<br><br>
+* Voltaire - Headings and Menu
+* Signika - Paragraps
 
 ### Wireframes
+
+![Wireframe](document/images_readme/easy-baking-wireframe.png)
 
 ## Features
 
