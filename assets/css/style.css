@@ -511,8 +511,8 @@ footer {
 
     ul {
         width: 40%;
-        font-size: x-large;
-        padding-top: 5px;
+        font-size: large;
+        padding-top: 2px;
     }
 
     ul li {}
@@ -563,6 +563,11 @@ footer {
     }
 
     /* Recipe */
+
+     .div-recipe img {
+        width: 70%;
+        box-shadow: 2px 2px #ccc3c3;
+     }
     ul {
         width: 30%;
         font-size: x-large;
