@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: 'signika', sans-serif;  
+    font-family: 'signika', sans-serif;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h2 {
     text-align: center;
 }
 
-h3{
+h3 {
     font-size: larger;
     color: #F57583;
     text-align: center;
@@ -60,7 +60,7 @@ header {
 
 header a {
     text-decoration: none;
-    color:#9f8184
+    color: #9f8184
 }
 
 /*Logo styles*/
@@ -114,13 +114,14 @@ main {
     padding: 5px;
     color: #ffffff;
     font-size: 14px;
-    
+
 }
 
 /* About Easy Baking */
 
 /* Fika section with images*/
-.div-two h1, h2 {
+.div-two h1,
+h2 {
     color: #F57583;
     text-shadow: 1px 1px #acacac9f;
 }
@@ -144,7 +145,7 @@ main {
     background-color: #9f8180;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0.5px 2px #9e81819f; 
+    box-shadow: 0.5px 2px #9e81819f;
 }
 
 .div-three p {
@@ -178,11 +179,11 @@ main {
     font-size: medium;
     left: 5%;
     color: #9f8184;
-    text-shadow: 1px 1px #9e81819f; 
+    text-shadow: 1px 1px #9e81819f;
     background-color: #f5fc6f80;
 }
 
- /* Raspberry and chocolate */
+/* Raspberry and chocolate */
 .raspberry-chocolate {
     margin: 40px 0 40px 0;
 }
@@ -209,7 +210,7 @@ main {
     background-image: url("../images/different-nuts.webp");
     background-size: cover;
     position: relative;
-    
+
 }
 
 #child-nuts {
@@ -242,7 +243,7 @@ main {
     font-weight: 300;
     font-size: 14px;
     text-shadow: 1px 1px #815f5f9f;
-    background-color: #9f8184; 
+    background-color: #9f8184;
 }
 
 .div-seven i {
@@ -254,7 +255,9 @@ main {
     background-color: #9f8184;
     color: #ffffff;
 }
-.recipes, .recipes-two {
+
+.recipes,
+.recipes-two {
     padding: 20px;
     font-size: smaller;
 }
@@ -266,6 +269,7 @@ main {
     margin: auto;
     border: 2px solid #F57583;
 }
+
 .h2-one {
     color: #F57583;
 }
@@ -287,7 +291,6 @@ main {
     padding-right: 2px;
 }
 
-
 /* Change styling to ordered list */
 .recipes ol {
     border: 2px solid #F57583;
@@ -297,6 +300,7 @@ main {
     list-style: none;
 
 }
+
 .recipes ol li {
     counter-increment: my-awesome-counter;
 }
@@ -318,6 +322,7 @@ main {
 .h2-two {
     color: #9f8184;
 }
+
 /* Change styling on unordered list*/
 .recipes-two ul {
     border: 2px solid #9f8184;
@@ -334,7 +339,6 @@ main {
     font-size: large;
     padding-right: 2px;
 }
-
 
 /* Change styling to ordered list*/
 .recipes-two ol {
@@ -374,10 +378,10 @@ main {
 }
 
 .text-input {
-   background: transparent; 
-   border: 2px solid #ffffff;
-   padding: 5px;
-   
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 5px;
+
 }
 
 .label-text {
@@ -417,9 +421,9 @@ footer {
     padding: 5%;
 }
 
-
 /* Tablets and larger */
 @media screen and (min-width: 768px) {
+
     /*General body style */
     h1 {
         font-size: xx-large;
@@ -433,16 +437,17 @@ footer {
         font-size: x-large;
     }
 
-        #menu {
-            display: flex;
-            flex-direction: row;
-        }
-    
-        ul li {
-            padding: 0 10px;
-            font-size: large;
-        }
-/* Banner home page*/
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul li {
+        padding: 0 10px;
+        font-size: large;
+    }
+
+    /* Banner home page*/
     .div-one {
         height: 30vh;
     }
@@ -464,7 +469,8 @@ footer {
         font-size: 2rem;
         left: 50%;
     }
- /* Tips for nuts */
+
+    /* Tips for nuts */
     #wrapper-nuts {
         height: 30vh;
     }
@@ -477,12 +483,13 @@ footer {
         right: 50%;
 
     }
-/* Text for caption */
-     .smaller-text {
-            font-size: 1rem;
-        }
 
- /* Text for img-in-row */
+    /* Text for caption */
+    .smaller-text {
+        font-size: 1rem;
+    }
+
+    /* Text for img-in-row */
     .div-three p {
         font-size: 1.2rem;
     }
@@ -490,49 +497,53 @@ footer {
     .div-seven p {
         font-size: 1.2rem;
     }
-    
-    
-/* Recipes */
-.div-recipe {
-    display: flex;
-}
 
-.div-recipe img {
-    width: 70%;
-}
-ul  {
-    width: 30%;
-    font-size: x-large;
-    padding-top: 5px;
-}
-ul li {
-    
-}
-ol {
-    font-size: x-large;
-    padding-top: 5px;
-}
 
-ol li {
-    font-size: large;
-    
-}
+    /* Recipes */
+    .div-recipe {
+        display: flex;
+    }
 
- 
-}
+    .div-recipe img {
+        width: 60%;
+        box-shadow: 2px 2px #ccc3c3;
+    }
 
+    ul {
+        width: 40%;
+        font-size: x-large;
+        padding-top: 5px;
+    }
+
+    ul li {}
+
+    ol {
+        font-size: x-large;
+        padding-top: 5px;
+    }
+
+    ol li {
+        font-size: large;
+
+    }
+
+
+}
 
 /* Desktop */
 @media screen and (min-width: 1200px) {
+
     /* Genreal body styles*/
     .homepage {
-            padding: 20px;
-        }
+        padding: 20px;
+    }
+
     /* Banner */
     .div-one {
         height: 50vh;
     }
-/* img-in-row*/
+
+    /* img-in-row*/
     /* Lemon quote */
     #wrapper-lemon {
         height: 40vh;
@@ -550,25 +561,26 @@ ol li {
     #child-nuts {
         right: 80%;
     }
-/* Recipe */
-        ul {
-            width: 30%;
-            font-size: x-large;
-            padding-top: 20px;
-        }
-    
-        ul li {
-            padding: 10px
-        }
-    
-        ol {
-            font-size: x-large;
-            padding-top: 20px;
-        }
-    
-        ol li {
-            font-size: large;
-            padding: 10px;
-        }
+
+    /* Recipe */
+    ul {
+        width: 30%;
+        font-size: x-large;
+        padding-top: 20px;
+    }
+
+    ul li {
+        padding: 10px
+    }
+
+    ol {
+        font-size: x-large;
+        padding-top: 20px;
+    }
+
+    ol li {
+        font-size: large;
+        padding: 10px;
+    }
 
 }
