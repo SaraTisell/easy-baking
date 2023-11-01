@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    font-size: large;
+    font-size: larger;
     text-align: center;
 }
 
@@ -37,12 +37,6 @@ h3{
 
 p {
     text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 600;
 }
 
 .smaller-text {
@@ -87,9 +81,8 @@ header a {
 }
 
 /* Main Content General*/
-
+/* Make main element take up any surplus space to push footer to bottom */
 main {
-    /* Make main element take up any surplus space to push footer to bottom */
     flex: 1 0 auto;
     background-color: #ffffff;
 }
@@ -101,27 +94,27 @@ main {
     background-image: url("../images/banner-for-easy-baking.webp");
     background-size: cover;
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     border-top: 5px solid #F57583;
     border-bottom: 5px solid #F57583;
+    align-items: center;
 }
 
 .banner-text-background {
     background-color: #F57583;
     opacity: 0.9;
-    width: 200px;
-    height: 80px;
+    width: 50%;
+    height: 60%;
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-text {
-    padding: 10px;
-    width: 200px;
-    height: 80px;
+    padding: 5px;
     color: #ffffff;
-    font-weight: bold;
-    text-align: center;
+    font-size: 14px;
+    
 }
 
 /* About Easy Baking */
@@ -180,7 +173,7 @@ main {
 
 #child-lemon {
     position: absolute;
-    width: 240px;
+    width: 15.625rem;
     top: 35%;
     font-size: medium;
     left: 5%;
@@ -221,7 +214,7 @@ main {
 
 #child-nuts {
     position: absolute;
-    width: 240px;
+    width: 15.625rem;
     top: 35%;
     font-size: medium;
     right: 5%;
@@ -442,8 +435,57 @@ footer {
     padding: 5%;
 }
 
-@media screen and (min-width: 768) {
-    
+
+/* Tablets and larger */
+@media screen and (min-width: 768px) {
+/* Menu styles*/
+
+.div-one {
+    height: 30vh;
+}
+.smaller-text {
+    font-size: 1rem;
+}
+
+.banner-text {
+    font-size: 2rem;
+}
+
+/* Lemon quote */
+#wrapper-lemon {
+    height: 30vh;
+}
+
+
+#child-lemon {
+    position: absolute;
+    width: 50vh;
+    top: 35%;
+    font-size: 2rem;
+    left: 50%;
+}
+#wrapper-nuts {
+    height: 30vh;
+}
+#child-nuts {
+    position: absolute;
+    width: 50vh;
+    top: 35%;
+    font-size: 2rem;
+    right: 50%;
 
 }
-    
+}
+
+
+
+
+
+
+/* Desktop*/
+@media screen and (min-width: 1200px) {
+    .div-one {
+        height: 50vh;
+    }
+
+}
