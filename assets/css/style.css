@@ -25,11 +25,13 @@ h1 {
 }
 
 h2 {
+    font-family: 'Voltaire', sans-serif;
     font-size: larger;
     text-align: center;
 }
 
 h3 {
+    font-family: 'Voltaire', sans-serif;
     font-size: larger;
     color: #F57583;
     text-align: center;
@@ -41,7 +43,7 @@ p {
 
 .smaller-text {
     font-size: 12px;
-    color: #9f8180
+    color: #69595B
 }
 
 /* class to target section in homepage*/
@@ -60,7 +62,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #9f8184
+    color: #69595B
 }
 
 /*Logo styles*/
@@ -74,6 +76,7 @@ header a {
     list-style-type: none;
     padding-right: 10px;
     width: 30%;
+    
 }
 
 .active {
@@ -177,9 +180,9 @@ h2 {
     width: 15.625rem;
     top: 35%;
     font-size: medium;
-    left: 5%;
+    left: 8%;
     color: #9f8184;
-    text-shadow: 1px 1px #9e81819f;
+    text-shadow: 1px 1px #e6e6e69f;
     background-color: #f5fc6f80;
 }
 
@@ -218,10 +221,10 @@ h2 {
     width: 15.625rem;
     top: 35%;
     font-size: medium;
-    right: 5%;
-    color: #000000;
-    text-shadow: 1px 1px #9e81819f;
-    background-color: #9f818480;
+    right: 8%;
+    color: #40393A;
+    text-shadow: 1px 1px #ffeced;
+    background-color: #9f818499;
 }
 
 /* Fika brings people togheter */
