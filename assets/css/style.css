@@ -277,6 +277,10 @@ h2 {
     color: #F57583;
 }
 
+.recipes h3 {
+    color: #000000;
+}
+
 /* Change styling to unordered list */
 .recipes ul {
     border: 2px solid #F57583;
@@ -324,6 +328,10 @@ h2 {
 
 .h2-two {
     color: #9f8184;
+}
+
+.recipes-two h3 {
+    color: #000000;
 }
 
 /* Change styling on unordered list*/
