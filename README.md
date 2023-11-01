@@ -11,6 +11,8 @@ The site is targeting everyone that has the desire to bake.
 
 ### Color scheme
 
+![Colorscheme](document/images_readme/easy-baking-color-scheme.png)
+
 ### Typography
 
 ### Wireframes
