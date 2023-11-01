@@ -438,8 +438,7 @@ footer {
 
 /* Tablets and larger */
 @media screen and (min-width: 768px) {
-    /* Menu styles*/
-
+    /*General body style */
     h1 {
         font-size: xx-large;
     }
@@ -448,18 +447,19 @@ footer {
         font-size: x-large;
     }
 
+    h3 {
+        font-size: x-large;
+    }
+/* Banner home page*/
     .div-one {
         height: 30vh;
-    }
-
-    .smaller-text {
-        font-size: 1rem;
     }
 
     .banner-text {
         font-size: 2rem;
     }
 
+    /*img-in-row*/
     /* Lemon quote */
     #wrapper-lemon {
         height: 30vh;
@@ -472,7 +472,7 @@ footer {
         font-size: 2rem;
         left: 50%;
     }
-
+ /* Tips for nuts */
     #wrapper-nuts {
         height: 30vh;
     }
@@ -485,7 +485,12 @@ footer {
         right: 50%;
 
     }
+/* Text for caption */
+     .smaller-text {
+            font-size: 1rem;
+        }
 
+ /* Text for img-in-row */
     .div-three p {
         font-size: 1.2rem;
     }
@@ -493,18 +498,28 @@ footer {
     .div-seven p {
         font-size: 1.2rem;
     }
+
+    /* Recipe page */
+
+    /* Recipes*/
+        /* Recipes color #f57583*/
+
+
+ 
 }
 
 
-
-
-
-/* Desktop*/
-@media screen and (min-width: 900px) {
+/* Desktop */
+@media screen and (min-width: 1200px) {
+    /* Genreal body styles*/
+    .homepage {
+            padding: 20px;
+        }
+    /* Banner */
     .div-one {
         height: 50vh;
     }
-
+/* img-in-row*/
     /* Lemon quote */
     #wrapper-lemon {
         height: 40vh;
