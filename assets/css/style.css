@@ -442,9 +442,16 @@ footer {
 .thank-you {
     padding: 60px 20px 20px 20px;
 }
+.thank-you h2 {
+    color: #F14F61;
+}
 
 .error {
     padding: 40px 20px 20px 20px;
+}
+
+.error h2 {
+    color: #F14F61;
 }
 
 /* Tablets and larger */
