@@ -228,7 +228,7 @@ main {
 }
 
 .raspberry-chocolate {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .div-six {
@@ -242,7 +242,30 @@ main {
 
 }
 
+/* Tips for nuts */
+#wrapper-nuts {
+    display: flex;
+    justify-content: right;
+    height: 20vh;
+}
 
+#parent-nuts {
+    width: 50%;
+    background-image: url("../images/different-nuts.webp");
+    background-size: cover;
+    position: relative;
+}
+
+#child-nuts {
+    position: absolute;
+    width: 240px;
+    top: 35%;
+    font-size: medium;
+    right: 5%;
+    color: #F57583;
+    text-shadow: 1px 1px #9e81819f;
+
+}
 /*Banner test 
 .banner img {
     width: 100%;
