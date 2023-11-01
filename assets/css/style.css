@@ -160,6 +160,7 @@ main {
     font-weight: 300;
     font-size: 14px;
     text-shadow: 1px 1px #815f5f9f;
+    margin-bottom: 20px;
 }
 
 /* Lemon quote */
@@ -167,6 +168,7 @@ main {
     display: flex;
     justify-content: left;
     height: 20vh;
+    margin-top: 40px;
 }
 
 #parent-lemon {
@@ -184,11 +186,12 @@ main {
     left: 5%;
     color: #9f8184;
     text-shadow: 1px 1px #9e81819f; 
+    background-color: #f5fc6f80;
 }
 
  /* Raspberry and chocolate */
 .raspberry-chocolate {
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
 }
 
 .div-six {
@@ -213,6 +216,7 @@ main {
     background-image: url("../images/different-nuts.webp");
     background-size: cover;
     position: relative;
+    
 }
 
 #child-nuts {
@@ -221,11 +225,16 @@ main {
     top: 35%;
     font-size: medium;
     right: 5%;
-    color: #F57583;
+    color: #000000;
     text-shadow: 1px 1px #9e81819f;
+    background-color: #9f818480;
 }
 
 /* Fika brings people togheter */
+.div-seven {
+    margin: 40px 0 40px 0;
+}
+
 .div-seven img {
     width: 100%;
     height: auto;
@@ -432,3 +441,9 @@ footer {
     font-size: 160%;
     padding: 5%;
 }
+
+@media screen and (min-width: 768) {
+    
+
+}
+    
