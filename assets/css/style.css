@@ -430,6 +430,10 @@ footer {
     padding: 5%;
 }
 
+.thank-you {
+    padding: 60px 20px 20px 20px;
+}
+
 .error {
     padding: 40px 20px 20px 20px;
 }
