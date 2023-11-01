@@ -390,12 +390,14 @@ figcaption {
     border: 2px solid #F57583;
     background: #F5758395;
     padding: 5px;
+
 }
 
 .text-input {
    background: transparent; 
    border: 2px solid #ffffff;
    padding: 5px;
+   
 }
 
 .label-text {
@@ -498,12 +500,12 @@ footer {
     .div-seven p {
         font-size: 1.2rem;
     }
-
-    /* Recipe page */
-
-    /* Recipes*/
-        /* Recipes color #f57583*/
-
+    
+    
+/* Recipes */
+.div-recipe {
+    display: flex;
+}
 
  
 }
