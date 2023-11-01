@@ -14,13 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: 'signika', sans-serif;
-    
-}
-
-/* class to target section in homepage*/
-.homepage {
-    padding: 10px;
+    font-family: 'signika', sans-serif;  
 }
 
 h1 {
@@ -29,6 +23,7 @@ h1 {
     font-family: 'Voltaire', sans-serif;
     font-weight: 400;
 }
+
 h2 {
     font-size: large;
     text-align: center;
@@ -43,15 +38,21 @@ h3{
 p {
     text-align: center;
 }
-.smaller-text {
-    font-size: 12px;
-    color:#9f8180
-}
 
 a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
+}
+
+.smaller-text {
+    font-size: 12px;
+    color: #9f8180
+}
+
+/* class to target section in homepage*/
+.homepage {
+    padding: 10px;
 }
 
 /* Header */
@@ -121,7 +122,6 @@ main {
     color: #ffffff;
     font-weight: bold;
     text-align: center;
-
 }
 
 /* About Easy Baking */
@@ -151,8 +151,7 @@ main {
     background-color: #9f8180;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0.5px 2px #9e81819f;
-    
+    box-shadow: 0.5px 2px #9e81819f; 
 }
 
 .div-three p {
@@ -161,44 +160,6 @@ main {
     font-weight: 300;
     font-size: 14px;
     text-shadow: 1px 1px #815f5f9f;
-}
-
-/* Link to recipes */
-.div-four p {
-    box-sizing: border-box;
-    padding: 20px;
-    border-radius: 50%;
-    background-color: #F57583;
-    color: #ffffff;
-    box-shadow: 0.5px 2px #9e81819f;
-    text-shadow: 1px 1px #9e81819f;
-    margin-bottom: 20px;
-}
-
-/* Raspberry quote */
-#wrapper-raspberry {
-    display: flex;
-    justify-content: right;
-    height: 20vh;
-}
-
-#parent-raspberry {
-    width: 50%;
-    background-image: url("../images/raspberry.webp");
-    background-size: cover;
-    position: relative;
-}
-
-#child-raspberry {
-    position: absolute;
-    width: 240px;
-    top: 35%;
-    font-size: medium;
-    right: 5%;
-    color: #F57583;
-    text-shadow: 1px 1px #9e81819f;
-
-
 }
 
 /* Lemon quote */
@@ -222,11 +183,10 @@ main {
     font-size: medium;
     left: 5%;
     color: #9f8184;
-    text-shadow: 1px 1px #9e81819f;
-    
-    
+    text-shadow: 1px 1px #9e81819f; 
 }
 
+ /* Raspberry and chocolate */
 .raspberry-chocolate {
     margin: 20px 0 20px 0;
 }
@@ -239,7 +199,6 @@ main {
 .div-six img {
     width: 50%;
     padding: 2px;
-
 }
 
 /* Tips for nuts */
@@ -264,7 +223,28 @@ main {
     right: 5%;
     color: #F57583;
     text-shadow: 1px 1px #9e81819f;
+}
 
+/* Fika brings people togheter */
+.div-seven img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    padding: 2px;
+    background-color: #9f8184;
+}
+
+.div-seven p {
+    box-sizing: border-box;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    text-shadow: 1px 1px #815f5f9f;
+    background-color: #9f8184; 
+}
+
+.div-seven i {
+    color: red;
 }
 
 /*Banner test 
@@ -287,8 +267,8 @@ figcaption {
     position: relative;
 } */
 
-/* Main content RECIPES*/
 
+/* Main content RECIPES*/
 .recipes-header {
     background-color: #9f8184;
     color: #ffffff;
@@ -307,6 +287,7 @@ figcaption {
 .h2-one {
     color: #F57583;
 }
+
 /* Change styling to unordered list */
 .recipes ul {
     border: 2px solid #F57583;
@@ -314,7 +295,6 @@ figcaption {
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
-    
 }
 
 .recipes ul li::before {
@@ -353,7 +333,6 @@ figcaption {
     border: 2px solid #9f8184;
 }
 
-
 .h2-two {
     color: #9f8184;
 }
@@ -364,7 +343,6 @@ figcaption {
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
-
 }
 
 .recipes-two ul li::before {
@@ -383,7 +361,6 @@ figcaption {
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
-
 }
 
 .recipes-two ol li {
@@ -397,7 +374,6 @@ figcaption {
 }
 
 /* Main content CONTACT*/
-
 #contact {
     background-image: url("../images/background-pink-cupcake.webp");
     background-size: cover;
@@ -406,7 +382,6 @@ figcaption {
     flex-grow: 1;
     color: #ffffff;
     height: 100vh;
-
 }
 
 #contact-form {
@@ -439,7 +414,6 @@ form p {
 }
 
 /* Footer */
-
 footer {
     background-color: #F57583;
 }
