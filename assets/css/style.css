@@ -438,54 +438,89 @@ footer {
 
 /* Tablets and larger */
 @media screen and (min-width: 768px) {
-/* Menu styles*/
+    /* Menu styles*/
 
-.div-one {
-    height: 30vh;
-}
-.smaller-text {
-    font-size: 1rem;
-}
+    h1 {
+        font-size: xx-large;
+    }
 
-.banner-text {
-    font-size: 2rem;
-}
+    h2 {
+        font-size: x-large;
+    }
 
-/* Lemon quote */
-#wrapper-lemon {
-    height: 30vh;
-}
+    .div-one {
+        height: 30vh;
+    }
 
+    .smaller-text {
+        font-size: 1rem;
+    }
 
-#child-lemon {
-    position: absolute;
-    width: 50vh;
-    top: 35%;
-    font-size: 2rem;
-    left: 50%;
-}
-#wrapper-nuts {
-    height: 30vh;
-}
-#child-nuts {
-    position: absolute;
-    width: 50vh;
-    top: 35%;
-    font-size: 2rem;
-    right: 50%;
+    .banner-text {
+        font-size: 2rem;
+    }
 
-}
-}
+    /* Lemon quote */
+    #wrapper-lemon {
+        height: 30vh;
+    }
 
+    #child-lemon {
+        position: absolute;
+        width: 50vh;
+        top: 35%;
+        font-size: 2rem;
+        left: 50%;
+    }
+
+    #wrapper-nuts {
+        height: 30vh;
+    }
+
+    #child-nuts {
+        position: absolute;
+        width: 50vh;
+        top: 35%;
+        font-size: 2rem;
+        right: 50%;
+
+    }
+
+    .div-three p {
+        font-size: 1.2rem;
+    }
+
+    .div-seven p {
+        font-size: 1.2rem;
+    }
+}
 
 
 
 
 
 /* Desktop*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     .div-one {
         height: 50vh;
+    }
+
+    /* Lemon quote */
+    #wrapper-lemon {
+        height: 40vh;
+    }
+
+    #child-lemon {
+        left: 80%;
+    }
+
+    /*Tips for nuts */
+    #wrapper-nuts {
+        height: 40vh;
+    }
+
+    #child-nuts {
+        right: 80%;
     }
 
 }
