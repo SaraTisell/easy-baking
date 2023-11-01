@@ -1,7 +1,7 @@
 # Easy Baking 
 
-Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow.
-The site is targeting everyone that has the desire to bake. 
+Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow. Easy Baking is highlightning the Swedish concept of "fika" and gives a broad insight in its meaning - gathering to enjoy pastry and coffee or tea. The site is targeting anyone who has the desire to bake and want some insperation.
+[Here](https://saratisell.github.io/easy-baking/) can you view the site.
 
 ![Mockup](document/images_readme/easy-baking-mock-up.png)
 
