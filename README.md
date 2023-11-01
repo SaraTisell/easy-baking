@@ -1,9 +1,13 @@
 # Easy Baking 
 
 Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow.
+The site is targeting everyone that has the desire to bake. 
+
+![Mockup](document/images_readme/easy-baking-mock-up.png)
 
 
 ## Design
+
 
 ### Color scheme
 
