@@ -398,6 +398,7 @@ button {
     background-color: #F57583;
     padding: 5px;
     color: #ffffff;
+    font-weight: 600;
 }
 
 form p {
@@ -520,8 +521,6 @@ footer {
         padding-top: 2px;
     }
 
-    ul li {}
-
     ol {
         font-size: large;
         padding-top: 5px;
@@ -530,6 +529,11 @@ footer {
     ol li {
         font-size: large;
 
+    }
+
+    #contact-form p {
+        font-size: medium;
+        padding-bottom: 20px;
     }
 
 
@@ -602,4 +606,5 @@ footer {
             width: 150%;
         }
 
+        
 }
