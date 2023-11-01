@@ -249,27 +249,6 @@ main {
     color: red;
 }
 
-/*Banner test 
-.banner img {
-    width: 100%;
-    height: auto;
-}
-
-figcaption {
-    position: absolute;
-    display: block;
-    float: center;
-    top: 50%;
-    bottom: 50%;
-    color: #ffffff;
-    background-color: #F57583;
-} 
-
-.banner {
-    position: relative;
-} */
-
-
 /* Main content RECIPES*/
 .recipes-header {
     background-color: #9f8184;
@@ -279,9 +258,10 @@ figcaption {
     padding: 20px;
     font-size: smaller;
 }
+
 /* Recipes color #f57583*/
 .recipes img {
-    width: 70%;
+    width: 100%;
     display: block;
     margin: auto;
     border: 2px solid #F57583;
@@ -329,7 +309,7 @@ figcaption {
 
 /* Recipes color #9f8184*/
 .recipes-two img {
-    width: 70%;
+    width: 100%;
     display: block;
     margin: auto;
     border: 2px solid #9f8184;
@@ -452,6 +432,16 @@ footer {
     h3 {
         font-size: x-large;
     }
+
+        #menu {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        ul li {
+            padding: 0 10px;
+            font-size: large;
+        }
 /* Banner home page*/
     .div-one {
         height: 30vh;
@@ -507,6 +497,27 @@ footer {
     display: flex;
 }
 
+.div-recipe img {
+    width: 70%;
+}
+ul  {
+    width: 30%;
+    font-size: x-large;
+    padding-top: 5px;
+}
+ul li {
+    
+}
+ol {
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+ol li {
+    font-size: large;
+    
+}
+
  
 }
 
@@ -539,5 +550,25 @@ footer {
     #child-nuts {
         right: 80%;
     }
+/* Recipe */
+        ul {
+            width: 30%;
+            font-size: x-large;
+            padding-top: 20px;
+        }
+    
+        ul li {
+            padding: 10px
+        }
+    
+        ol {
+            font-size: x-large;
+            padding-top: 20px;
+        }
+    
+        ol li {
+            font-size: large;
+            padding: 10px;
+        }
 
 }
