@@ -64,7 +64,7 @@ The header will contain the sites main navigation for an good user experience
 * The user will find some tips for their baking, regarding flavour combinations and they will be able to read about the 'Fika' concept.
 
 ![Home](document/images_readme/landing-page.png)
-![Fika](document/images_readme/about.png)
+![Fika](document/images_readme/about.easybaking.png)
 
 #### The Recipes Page
 
