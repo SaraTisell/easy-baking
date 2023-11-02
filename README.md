@@ -176,6 +176,11 @@ Wave accessibility evaluation tool showed 1 error on contact.html
 ![wave.thanks](document/images_readme/wave.thanks.png)
 ![wave.404](document/images_readme/wave.404.png)
 
+### Unfixed Bugs
+WAVE <https://wave.webaim.org/> showed one contrast error on button for contact form in contact.html. 
+The color for button were changed from #ffffff to #40393A without any success to fix the error for contrast.
+
+
 ## Deployment
 
 ## Credits
