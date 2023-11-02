@@ -72,9 +72,11 @@ The header will contain the sites main navigation for an good user experience
 
 #### The Recipes Page
 
+* Will contain six different recipies with proper description for ingredients and a detailed description how to make it.
+* The goal of the varierity is to gain an opportunity to offer something for every user.
+
 ![Recipes](document/images_readme/recipes.png)
-Here can the visitors find the 6(?) recipes for baking. 
-The recipies contains all igridients and how much of each ingridient togheter with the steps that should be followed to make it.
+
 
 ### The Contact Page
 
