@@ -80,7 +80,19 @@ The header will contain the sites main navigation for an good user experience
 
 ### The Contact Page
 
-The contact page will give the visitors an opportunity to fill in a form to send us a question about the recipes or something similar.
+Will contain a contact form that allowes users to contact Easy Baking regarding any questions or thoughts they may have. <br>
+ The form will include the following fields, required:
+ * First Name
+ * Last Name
+ * Email Address
+ * Message
+
+* All fields will be required.
+* When the contact form have been succesfully submitted the user will be navigated to thanks.html that shows a 'Thank you message'
+* A meta tag will be implemented on thanks.html to atomatically send the user back to home page after 10 secunds.
+
+![Contact](document/images_readme/contact-form.png)
+![Thanks](document/images_readme/thank-you.png)
 
 
 ## Technologies Used
