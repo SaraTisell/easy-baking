@@ -293,6 +293,7 @@ h2 {
     border: 2px solid #F57583 ;
     list-style-position: inside;
     padding-left: 5px;
+    list-style: none ;
 }
 
 .recipes-two ul {
@@ -305,6 +306,7 @@ h2 {
     border: 2px solid #9f8184;
     list-style-position: inside;
     padding-left: 5px;
+    list-style: none;
 }
 
 .list-heading {
