@@ -149,6 +149,11 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ### W3C HTML Validator
 
+![html.index](document/images_readme/html.index.png)
+![html.recipes](document/images_readme/html.recipes.png)
+![html.contact](document/images_readme/html.contact.png)
+![html.thanks](document/images_readme/html-404.png)
+
 * W3C CSS Validator (Jigsaw)
 
 * WAVE 
