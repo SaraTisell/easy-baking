@@ -217,4 +217,12 @@ The live link can be found here - <https://saratisell.github.io/easy-baking/>
   * Code borrowed to display text over image by using flex-box and relativ position.
 
 * Love Running Project
-  * 
+  * HTML - How to add a favicon
+  * HTML - Social Network links
+  * CSS - Asterisk wildcard selector to override default styles added from the browser
+
+
+### Content
+
+* <https://www.allrecipes.com>
+  * Recipes were borrowed from this site
