@@ -313,42 +313,6 @@ h2 {
     list-style: none;
     font-weight: bold;
 }
-/* Change styling to unordered list 
-.recipes ul {
-    border: 2px solid #F57583;
-    box-shadow: 2px 2px #ccc3c3;
-    list-style-position: inside;
-    padding-left: 5px;
-    list-style: none;
-}
-
-.recipes ul li::before {
-    content: "\2022";
-    color: #F57583;
-    font-weight: bold;
-    font-size: large;
-    padding-right: 2px;
-} */
-
-/* Change styling to ordered list 
-.recipes ol {
-    border: 2px solid #F57583;
-    box-shadow: 2px 2px #ccc3c3;
-    list-style-position: inside;
-    padding-left: 5px;
-    list-style: none;
-
-}
-
-.recipes ol li {
-    counter-increment: my-awesome-counter;
-}
-
-.recipes ol li::before {
-    content: counter(my-awesome-counter) ". ";
-    color: #F57583;
-    font-weight: bold;
-} */
 
 /* Recipes color #9f8184*/
 .recipes-two img {
@@ -365,42 +329,6 @@ h2 {
 .recipes-two h3 {
     color: #000000;
 }
-
-/* Change styling on unordered list
-.recipes-two ul {
-    border: 2px solid #9f8184;
-    box-shadow: 2px 2px #ccc3c3;
-    list-style-position: inside;
-    padding-left: 5px;
-    list-style: none;
-}
-
-.recipes-two ul li::before {
-    content: "\2022";
-    color: #9f8184;
-    font-weight: bold;
-    font-size: large;
-    padding-right: 2px;
-}*/
-
-/* Change styling to ordered list
-.recipes-two ol {
-    border: 2px solid #9f8184;
-    box-shadow: 2px 2px #ccc3c3;
-    list-style-position: inside;
-    padding-left: 5px;
-    list-style: none;
-}
-
-.recipes-two ol li {
-    counter-increment: my-awesome-counter;
-}
-
-.recipes-two ol li::before {
-    content: counter(my-awesome-counter) ". ";
-    color: #9f8184;
-    font-weight: bold;
-} */
 
 /* Main content CONTACT*/
 #contact {
@@ -420,16 +348,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
 }
 
 .text-input {
     background: transparent;
     border: 2px solid #ffffff;
     padding: 5px;
-    
-
 }
 
 .label-text {
@@ -546,7 +470,6 @@ footer {
         top: 35%;
         font-size: 2rem;
         right: 50%;
-
     }
 
     /* Text for caption */
