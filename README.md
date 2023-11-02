@@ -27,15 +27,27 @@ The choosen fonts will give advantage for the site due to its clean look due and
 
 ## Features
 
-### Navigation
+### Site Wide
 
-### The Header
+#### Navigation
+
+The header will contain the sites main navigation for an good user experience
+  * Logo will be clickable and linked to the home page.
+  * Menu will contain links to Home page, Recipes page and Contact page.
+  * This will give the user easy navigation thorug all pages.
 
 ![Header](document/images_readme/header.png)
 
-The header contains the man navigation for the website. The logo contains a link directly to the home page that works through all the sites pages. In the header is the menu found where the visitors can navigate too all pages on the site - Home, Recipes and contact page. 
+#### Footer
 
-### The Home Page
+
+  * Will contain links to social media websites that will be displayed with ikons, and provided with aria labels in order to increase accessibility.
+  * All links will will be opened in a new tab, to avoid users leaving the site.
+
+![Footer](document/images_readme/footer.png)
+
+
+#### The Home Page
 
 The home page contains example pictures and short description of the different recipes that can be found on the website.
 
