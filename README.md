@@ -145,7 +145,9 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ### Lighthouse Testing
 
-![Lighthouse]
+![Lighthouse-desktop](document/images_readme/test.desktop.2.png)
+
+![lighthouse-mobile](document/images_readme/testing-mobile.png)
 
 ### W3C HTML Validator
 Html Validator showed no error
@@ -166,6 +168,13 @@ Css Validator showed no error
 ![css.404](document/images_readme/css-404.png)
 
 ### WAVE
+Wave accessibility evaluation tool showed 1 error on contact.html
+
+![wave.index](document/images_readme/wave.index.png)
+![wave.recipes](document/images_readme/wave.recipe.png)
+![wave.contact](document/images_readme/wave.contact.png)
+![wave.thanks](document/images_readme/wave.thanks.png)
+![wave.404](document/images_readme/wave.404.png)
 
 ## Deployment
 
