@@ -17,7 +17,7 @@ Easy baking's website provides its users with delicious baking recipes that are 
 
 Sans-serif fonts were imported from Google Fonts
 The choosen fonts will give advantage for the site due to its clean look due and its accessibility.
-<br><br>
+<br>
 * Voltaire - Headings and Menu
 * Signika - Paragraps
 
@@ -29,10 +29,11 @@ The choosen fonts will give advantage for the site due to its clean look due and
 
 ### Navigation
 
-
 ### The Header
 
-The header contains the man navigation for the website. The logo contains a link directly to the home page that works through all the sites pages. In the header is the menu found where the visitors can navigate too all pages on the site - Home, Recipes and contact page.
+![Header](document/images_readme/header.png)
+
+The header contains the man navigation for the website. The logo contains a link directly to the home page that works through all the sites pages. In the header is the menu found where the visitors can navigate too all pages on the site - Home, Recipes and contact page. 
 
 ### The Home Page
 
