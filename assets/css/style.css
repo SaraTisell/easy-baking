@@ -275,6 +275,7 @@ h2 {
     display: block;
     margin: auto;
     border: 2px solid #F57583;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .h2-one {
@@ -287,6 +288,7 @@ h2 {
     border: 2px solid #F57583;
     list-style-position: inside;
     padding-left: 5px;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .recipes ol {
@@ -294,12 +296,14 @@ h2 {
     list-style-position: inside;
     padding-left: 5px;
     list-style: none ;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .recipes-two ul {
     border: 2px solid #9f8184;
     list-style-position: inside;
     padding-left: 5px;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .recipes-two ol {
@@ -307,6 +311,7 @@ h2 {
     list-style-position: inside;
     padding-left: 5px;
     list-style: none;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .list-heading {
@@ -320,6 +325,7 @@ h2 {
     display: block;
     margin: auto;
     border: 2px solid #9f8184;
+    box-shadow: 2px 2px #ccc3c3;
 }
 
 .h2-two {
