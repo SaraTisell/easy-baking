@@ -116,6 +116,35 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 
 ## Technologies Used
+ 
+ * HTML
+   * The main language to develope the structure of the website
+* CSS
+   * All styling for the website was written with custom CSS in style.css
+* Codeanywhere
+  * IDE used to develope the website  
+* GitHub
+  * To source code and deploy using Git Pages
+* Git
+  * Used to commit and push code from IDE during the development
+* Balsamiq
+  * https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
+* Canva
+  * https://www.canva.com/ Used to design logo, favicon and resize images
+* Favicon.io 
+  * <https://favicon.io/favicon-converter/>  Used to create favicon files  
+* Freeconverter.com
+  * <https://www.freeconvert.com/png-to-webp> Used to convert png images to webp
+* Pixelied.com
+  * https://pixelied.com/convert/png-converter/png-to-webp Used to convert png images to webp
+* Font Awesome 
+  * <https://fontawesome.com/> Used to implement icons 
+* Google Fonts
+  * https://fonts.google.com/ Used to import fonts
+
+ 
+
+
 
 ### Languages
 
