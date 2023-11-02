@@ -86,6 +86,7 @@ header a {
 
 /* Main Content General*/
 /* Make main element take up any surplus space to push footer to bottom */
+/* Borrowed from Love Running Project*/
 main {
     flex: 1 0 auto;
     background-color: #ffffff;
@@ -280,11 +281,37 @@ h2 {
     color: #F14F61;
 }
 
-.recipes h3 {
-    color: #000000;
+
+
+.recipes ul {
+    border: 2px solid #F57583;
+    list-style-position: inside;
+    padding-left: 5px;
 }
 
-/* Change styling to unordered list */
+.recipes ol {
+    border: 2px solid #F57583 ;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.recipes-two ul {
+    border: 2px solid #9f8184;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.recipes-two ol {
+    border: 2px solid #9f8184;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+
+.list-heading {
+    list-style: none;
+    font-weight: bold;
+}
+/* Change styling to unordered list 
 .recipes ul {
     border: 2px solid #F57583;
     box-shadow: 2px 2px #ccc3c3;
@@ -299,9 +326,9 @@ h2 {
     font-weight: bold;
     font-size: large;
     padding-right: 2px;
-}
+} */
 
-/* Change styling to ordered list */
+/* Change styling to ordered list 
 .recipes ol {
     border: 2px solid #F57583;
     box-shadow: 2px 2px #ccc3c3;
@@ -319,7 +346,7 @@ h2 {
     content: counter(my-awesome-counter) ". ";
     color: #F57583;
     font-weight: bold;
-}
+} */
 
 /* Recipes color #9f8184*/
 .recipes-two img {
@@ -337,7 +364,7 @@ h2 {
     color: #000000;
 }
 
-/* Change styling on unordered list*/
+/* Change styling on unordered list
 .recipes-two ul {
     border: 2px solid #9f8184;
     box-shadow: 2px 2px #ccc3c3;
@@ -352,9 +379,9 @@ h2 {
     font-weight: bold;
     font-size: large;
     padding-right: 2px;
-}
+}*/
 
-/* Change styling to ordered list*/
+/* Change styling to ordered list
 .recipes-two ol {
     border: 2px solid #9f8184;
     box-shadow: 2px 2px #ccc3c3;
@@ -371,7 +398,7 @@ h2 {
     content: counter(my-awesome-counter) ". ";
     color: #9f8184;
     font-weight: bold;
-}
+} */
 
 /* Main content CONTACT*/
 #contact {
