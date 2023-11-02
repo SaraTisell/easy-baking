@@ -78,7 +78,7 @@ The header will contain the sites main navigation for an good user experience
 ![Recipes](document/images_readme/recipes.png)
 
 
-### The Contact Page
+#### The Contact Page
 
 Will contain a contact form that allowes users to contact Easy Baking regarding any questions or thoughts they may have. <br>
  The form will include the following fields, required:
@@ -148,21 +148,14 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ### Languages
 
-Html & Css
-
-### Framework, Libraries & Program Used
-
-Code anywhere
-Github
-Balsamiq
-Favicon.io
-Canva
-Google fonts
-Font Awesome
-
-## Deployment
+* HTML
+  * To develope website structure
+* CSS
+  * To ive the website custom styling
 
 ## Testing
+
+## Deployment
 
 ## Credits
 
