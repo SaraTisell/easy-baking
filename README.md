@@ -71,7 +71,7 @@ The header will contain the sites main navigation for an good user experience
 * Will contain six different recipes with proper description for ingredients and a detailed description how to make it.
 * The goal of the varierity is to gain an opportunity to offer something for every user.
 
-![Recipes](document/images_readme/recipes.png)
+![Recipes](document/images_readme/recipe.png)
 
 #### The Contact Page
 
