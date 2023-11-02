@@ -204,6 +204,8 @@ The color for button were changed from #ffffff to #40393A without any success to
   * Click 'Save'
   * A live link to the live website will be displayed 
 
+The live link can be found here - <https://saratisell.github.io/easy-baking/>
+
 ## Credits
 
 Code
