@@ -119,7 +119,7 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 * Git
   * Used to commit and push code from IDE during the development
 * Balsamiq
-  * [Balsamiq]https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
+ * https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
 * Canva
   * https://www.canva.com/ Used to design logo, favicon and resize images
 * Favicon.io 
@@ -139,13 +139,13 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 * HTML
   * To develope website structure
 * CSS
-  * To ive the website custom styling
+  * To give the website custom styling
 
 ## Testing
 
 This website was tested on these browsers:
 * Chrome
-* Firefow
+* Firefox
 * Microsoft Edge
 
 No issues was found. 
@@ -160,7 +160,7 @@ No issues was found.
 
 ![Lighthouse-desktop](document/images_readme/test.desktop.2.png)
 <br>
-![lighthouse-mobile](document/images_readme/testing-mobile.png)
+![Lighthouse-mobile](document/images_readme/testing-mobile.png)
 
 ### W3C HTML Validator
 Html Validator showed no error
