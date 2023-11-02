@@ -130,7 +130,7 @@ h2 {
     color: #F14F61;
     text-shadow: 1px 1px #acacac9f;
 }
-
+/*Borrowed from https: //codepen.io/sarus/pen/PJGPmy*/
 .img-in-row {
     display: flex;
     object-fit: contain;
@@ -163,7 +163,7 @@ h2 {
 }
 
 /* Lemon quote */
-/* Part Borrowed from https://codepen.io/sarus/pen/PJGPmy */
+/* Part Borrowed from https: //stackoverflow.com/questions/38903300/how-to-i-have-text-partially-overlay-my-image */
 #wrapper-lemon {
     display: flex;
     justify-content: left;
@@ -205,7 +205,7 @@ h2 {
 }
 
 /* Tips for nuts */
-/* Part Borrowed from https://codepen.io/sarus/pen/PJGPmy */
+/* Part Borrowed from https: //stackoverflow.com/questions/38903300/how-to-i-have-text-partially-overlay-my-image */
 #wrapper-nuts {
     display: flex;
     justify-content: right;

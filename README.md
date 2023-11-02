@@ -208,6 +208,13 @@ The live link can be found here - <https://saratisell.github.io/easy-baking/>
 
 ## Credits
 
-Code
-Content
-Media
+### Code 
+
+* https://codepen.io/sarus/pen/PJGPmy
+  * Code borrowed from this page to put images in a row.
+
+* <https://stackoverflow.com/questions/38903300/how-to-i-have-text-partially-overlay-my-image>
+  * Code borrowed to display text over image by using flex-box and relativ position.
+
+* Love Running Project
+  * 
