@@ -1,6 +1,6 @@
 # Easy Baking
 
-Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow. Easy Baking is highlightning the Swedish concept of "fika" and gives a broad insight in its meaning - gathering to enjoy pastry and coffee/tea. The site is targeting anyone who has the desire to bake and want some inspiration.
+Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow. Easy Baking is highlighting the Swedish concept of "fika" and gives a broad insight in its meaning - gathering to enjoy pastry and coffee/tea. The site is targeting anyone who has the desire to bake and want some inspiration.
 [Here](https://saratisell.github.io/easy-baking/) can you view the site.
 
 ![Mockup](document/images_readme/easy-baking-mock-up.png)
@@ -38,7 +38,7 @@ The header will contain the sites main navigation for an good user experience
 #### Footer
 
   * Will contain links to social media websites that will be displayed with icons, and provided with aria labels in order to increase accessibility.
-  * All links will will be opened in a new tab, to avoid users leaving the site.
+  * All links will be opened in a new tab, to avoid users leaving the site.
 
 ![Footer](document/images_readme/footer.png)
 
@@ -67,7 +67,7 @@ The header will contain the sites main navigation for an good user experience
 
 #### The Recipes Page
 
-* Will contain six different recipies with proper description for ingredients and a detailed description how to make it.
+* Will contain six different recipes with proper description for ingredients and a detailed description how to make it.
 * The goal of the varierity is to gain an opportunity to offer something for every user.
 
 ![Recipes](document/images_readme/recipes.png)
@@ -75,7 +75,7 @@ The header will contain the sites main navigation for an good user experience
 #### The Contact Page
 
 Will contain a contact form that allowes users to contact Easy Baking regarding any questions or thoughts they may have. <br>
- The form will include the following fields, required:
+ The form will include the following fields:
  * First Name
  * Last Name
  * Email Address
@@ -119,7 +119,7 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 * Git
   * Used to commit and push code from IDE during the development
 * Balsamiq
-  * https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
+  * [Balsamiq]https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
 * Canva
   * https://www.canva.com/ Used to design logo, favicon and resize images
 * Favicon.io 
