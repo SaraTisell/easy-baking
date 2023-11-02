@@ -143,6 +143,16 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ## Testing
 
+### Lighthouse Testing
+
+![Lighthouse]
+
+### W3C HTML Validator
+
+* W3C CSS Validator (Jigsaw)
+
+* WAVE 
+
 ## Deployment
 
 ## Credits
