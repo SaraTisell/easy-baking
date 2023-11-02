@@ -64,10 +64,15 @@ The header will contain the sites main navigation for an good user experience
 
 #### The Home Page
 
-The home page contains example pictures and short description of the different recipes that can be found on the website.
+* Will contain a short and consist description what the user can expect from the site.
+* The user will find some tips for their baking, regarding flavour combinations and they will be able to read about the 'Fika' concept.
 
-### The Recipes Page
+![Home](document/images_readme/landing-page.png)
+![Fika](document/images_readme/about.png)
 
+#### The Recipes Page
+
+![Recipes](document/images_readme/recipes.png)
 Here can the visitors find the 6(?) recipes for baking. 
 The recipies contains all igridients and how much of each ingridient togheter with the steps that should be followed to make it.
 
@@ -75,9 +80,7 @@ The recipies contains all igridients and how much of each ingridient togheter wi
 
 The contact page will give the visitors an opportunity to fill in a form to send us a question about the recipes or something similar.
 
-### The Footer
 
-The footer contains social media links.
 ## Technologies Used
 
 ### Languages
