@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600&family=Voltaire&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
+/* Borrowed from Love Running-project*/
 * {
     padding: 0;
     margin: 0;
@@ -161,6 +162,7 @@ h2 {
 }
 
 /* Lemon quote */
+/* Part Borrowed from https://codepen.io/sarus/pen/PJGPmy */
 #wrapper-lemon {
     display: flex;
     justify-content: left;
@@ -202,6 +204,7 @@ h2 {
 }
 
 /* Tips for nuts */
+/* Part Borrowed from https://codepen.io/sarus/pen/PJGPmy */
 #wrapper-nuts {
     display: flex;
     justify-content: right;

@@ -1,16 +1,13 @@
-# Easy Baking 
+# Easy Baking
 
 Easy baking's website provides its users with delicious baking recipes that are well structured and easy to follow. Easy Baking is highlightning the Swedish concept of "fika" and gives a broad insight in its meaning - gathering to enjoy pastry and coffee/tea. The site is targeting anyone who has the desire to bake and want some inspiration.
 [Here](https://saratisell.github.io/easy-baking/) can you view the site.
 
 ![Mockup](document/images_readme/easy-baking-mock-up.png)
 
-
 ## Design
 
-
 ### Color scheme
-
 ![Colorscheme](document/images_readme/easy-baking-color-scheme.png)
 
 ### Typography
@@ -40,7 +37,6 @@ The header will contain the sites main navigation for an good user experience
 
 #### Footer
 
-
   * Will contain links to social media websites that will be displayed with icons, and provided with aria labels in order to increase accessibility.
   * All links will will be opened in a new tab, to avoid users leaving the site.
 
@@ -50,7 +46,6 @@ The header will contain the sites main navigation for an good user experience
 #### Favicon
 
   * A favicon with the same cupcake-design that shows in the logotype will be added to increase the users experience and make it easier to recognise the site if they have several tabs open.
-
 
 ![Favicon](document/images_readme/favicon.png)
 
@@ -77,7 +72,6 @@ The header will contain the sites main navigation for an good user experience
 
 ![Recipes](document/images_readme/recipes.png)
 
-
 #### The Contact Page
 
 Will contain a contact form that allowes users to contact Easy Baking regarding any questions or thoughts they may have. <br>
@@ -93,7 +87,6 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ![Contact](document/images_readme/contact-form.png)
 ![Thanks](document/images_readme/thank-you.png)
-
 
 #### Features
 
@@ -113,8 +106,6 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
   * A session based chat, no need for sign up
   * Where ideas and thoughts can be exchanged
   
-
-
 ## Technologies Used
  
  * HTML
@@ -141,9 +132,6 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
   * <https://fontawesome.com/> Used to implement icons 
 * Google Fonts
   * https://fonts.google.com/ Used to import fonts
-
- 
-
 
 
 ### Languages
