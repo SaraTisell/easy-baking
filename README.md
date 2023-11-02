@@ -143,6 +143,19 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 
 ## Testing
 
+This website was tested on these browsers:
+* Chrome
+* Firefow
+* Microsoft Edge
+
+No issues was found. 
+* Responsive throug all pages 
+* Navigation work, NO broken links
+* Contact form works
+  * Navigation to thanks.html when successful submission
+  * Required attribut works
+* Font sizes and colors were correct and easy to read
+
 ### Lighthouse Testing
 
 ![Lighthouse-desktop](document/images_readme/test.desktop.2.png)
@@ -179,6 +192,7 @@ Wave accessibility evaluation tool showed 1 error on contact.html
 ### Unfixed Bugs
 WAVE <https://wave.webaim.org/> showed one contrast error on button for contact form in contact.html. 
 The color for button were changed from #ffffff to #40393A without any success to fix the error for contrast.
+
 
 
 ## Deployment
