@@ -197,6 +197,13 @@ The color for button were changed from #ffffff to #40393A without any success to
 
 ## Deployment
 
+  *The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab
+  * From the menu on left select 'Pages'
+  * From the source section drop-down menu, select the Main Branch
+  * Click 'Save'
+  * A live link to the live website will be displayed 
+
 ## Credits
 
 Code
