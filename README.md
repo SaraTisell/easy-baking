@@ -197,7 +197,7 @@ The color for button were changed from #ffffff to #40393A without any success to
 
 ## Deployment
 
-  *The site was deployed to GitHub pages. The steps to deploy are as follows:
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
   * In the GitHub repository, navigate to the Settings tab
   * From the menu on left select 'Pages'
   * From the source section drop-down menu, select the Main Branch
@@ -226,3 +226,13 @@ The live link can be found here - <https://saratisell.github.io/easy-baking/>
 
 * <https://www.allrecipes.com>
   * Recipes were borrowed from this site
+
+### Media
+
+Images for content were borrowed from these sites
+
+* <https://www.pexels.com>
+
+* https://unsplash.com
+
+* <https://www.canva.com/>
