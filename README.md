@@ -54,6 +54,14 @@ The header will contain the sites main navigation for an good user experience
 
 ![Favicon](document/images_readme/favicon.png)
 
+
+#### 404 Page
+
+* A 404 page will be implemented and designed to match the genral design of the site.
+* If a user navigates to a broken link will the 404 page appear and give the user easy access back to the home page.
+
+![404](document/images_readme/404.png)
+
 #### The Home Page
 
 The home page contains example pictures and short description of the different recipes that can be found on the website.
