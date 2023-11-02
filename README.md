@@ -95,6 +95,26 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 ![Thanks](document/images_readme/thank-you.png)
 
 
+#### Features
+
+##### Existing
+
+* Responsive design
+* Easy navigation and well structured
+* 6 well described recipes
+* Contact form and Thank you page
+
+##### Future
+
+* Reduce the visible content for 'How To' on recipes to let the user decide when to show and hide a section.
+* Add more recipes.
+* Add videos showing how to make the recepies in favour to the users that may need more instructions than just text.
+* Implement a chat forum for the visitors to use to interact with eachother
+  * A session based chat, no need for sign up
+  * Where ideas and thoughts can be exchanged
+  
+
+
 ## Technologies Used
 
 ### Languages
