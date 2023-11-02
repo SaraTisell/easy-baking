@@ -41,11 +41,18 @@ The header will contain the sites main navigation for an good user experience
 #### Footer
 
 
-  * Will contain links to social media websites that will be displayed with ikons, and provided with aria labels in order to increase accessibility.
+  * Will contain links to social media websites that will be displayed with icons, and provided with aria labels in order to increase accessibility.
   * All links will will be opened in a new tab, to avoid users leaving the site.
 
 ![Footer](document/images_readme/footer.png)
 
+
+#### Favicon
+
+  * A favicon with the same cupcake-design that shows in the logotype will be added to increase the users experience and make it easier to recognise the site if they have several tabs open.
+
+
+![Favicon](document/images_readme/favicon.png)
 
 #### The Home Page
 
