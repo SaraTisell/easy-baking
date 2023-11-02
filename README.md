@@ -8,6 +8,7 @@ Easy baking's website provides its users with delicious baking recipes that are 
 ## Design
 
 ### Color scheme
+
 ![Colorscheme](document/images_readme/easy-baking-color-scheme.png)
 
 ### Typography
@@ -15,6 +16,7 @@ Easy baking's website provides its users with delicious baking recipes that are 
 Sans-serif fonts were imported from Google Fonts
 The choosen fonts will give advantage for the site due to its clean look due and its accessibility.
 <br>
+
 * Voltaire - Headings and Menu
 * Signika - Paragraps
 
@@ -29,26 +31,25 @@ The choosen fonts will give advantage for the site due to its clean look due and
 #### Navigation
 
 The header will contain the sites main navigation for an good user experience
-  * Logo will be clickable and linked to the home page.
-  * Menu will contain links to Home page, Recipes page and Contact page.
-  * This will give the user easy navigation thorug all pages.
+
+* Logo will be clickable and linked to the home page.
+* Menu will contain links to Home page, Recipes page and Contact page.
+* This will give the user easy navigation thorug all pages.
 
 ![Header](document/images_readme/header.png)
 
 #### Footer
 
-  * Will contain links to social media websites that will be displayed with icons, and provided with aria labels in order to increase accessibility.
-  * All links will be opened in a new tab, to avoid users leaving the site.
+* Will contain links to social media websites that will be displayed with icons, and provided with aria labels in order to increase accessibility.
+* All links will be opened in a new tab, to avoid users leaving the site.
 
 ![Footer](document/images_readme/footer.png)
 
-
 #### Favicon
 
-  * A favicon with the same cupcake-design that shows in the logotype will be added to increase the users experience and make it easier to recognise the site if they have several tabs open.
+* A favicon with the same cupcake-design that shows in the logotype will be added to increase the users experience and make it easier to recognise the site if they have several tabs open.
 
 ![Favicon](document/images_readme/favicon.png)
-
 
 #### 404 Page
 
@@ -76,10 +77,11 @@ The header will contain the sites main navigation for an good user experience
 
 Will contain a contact form that allowes users to contact Easy Baking regarding any questions or thoughts they may have. <br>
  The form will include the following fields:
- * First Name
- * Last Name
- * Email Address
- * Message
+
+* First Name
+* Last Name
+* Email Address
+* Message
 
 * All fields will be required.
 * When the contact form have been succesfully submitted the user will be navigated to thanks.html that shows a 'Thank you message'
@@ -107,11 +109,11 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
   * Where ideas and thoughts can be exchanged
   
 ## Technologies Used
- 
- * HTML
-   * The main language to develope the structure of the website
+
+* HTML
+  * The main language to develope the structure of the website
 * CSS
-   * All styling for the website was written with custom CSS in style.css
+  * All styling for the website was written with custom CSS in style.css
 * Codeanywhere
   * IDE used to develope the website  
 * GitHub
@@ -119,20 +121,19 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 * Git
   * Used to commit and push code from IDE during the development
 * Balsamiq
- * https://balsamiq.com/wireframes/desktop/# Used to design wireframes 
+* <https://balsamiq.com/wireframes/desktop/#> Used to design wireframes
 * Canva
-  * https://www.canva.com/ Used to design logo, favicon and resize images
-* Favicon.io 
+  * <https://www.canva.com/> Used to design logo, favicon and resize images
+* Favicon.io
   * <https://favicon.io/favicon-converter/>  Used to create favicon files  
 * Freeconverter.com
   * <https://www.freeconvert.com/png-to-webp> Used to convert png images to webp
 * Pixelied.com
-  * https://pixelied.com/convert/png-converter/png-to-webp Used to convert png images to webp
-* Font Awesome 
-  * <https://fontawesome.com/> Used to implement icons 
+  * <https://pixelied.com/convert/png-converter/png-to-webp> Used to convert png images to webp
+* Font Awesome
+  * <https://fontawesome.com/> Used to implement icons
 * Google Fonts
-  * https://fonts.google.com/ Used to import fonts
-
+  * <https://fonts.google.com/> Used to import fonts
 
 ### Languages
 
@@ -144,12 +145,14 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 ## Testing
 
 This website was tested on these browsers:
+
 * Chrome
 * Firefox
 * Microsoft Edge
 
-No issues was found. 
-* Responsive throug all pages 
+No issues was found.
+
+* Responsive throug all pages
 * Navigation work, NO broken links
 * Contact form works
   * Navigation to thanks.html when successful submission
@@ -163,6 +166,7 @@ No issues was found.
 ![Lighthouse-mobile](document/images_readme/testing-mobile.png)
 
 ### W3C HTML Validator
+
 Html Validator showed no error
 
 ![html.index](document/images_readme/html.index.png)
@@ -172,6 +176,7 @@ Html Validator showed no error
 ![html.404](document/images_readme/html-404.png)
 
 ### W3C CSS Validator (Jigsaw)
+
 Css Validator showed no error
 
 ![css.index](document/images_readme/css.index.png)
@@ -181,6 +186,7 @@ Css Validator showed no error
 ![css.404](document/images_readme/css-404.png)
 
 ### WAVE
+
 Wave accessibility evaluation tool showed 1 error on contact.html
 
 ![wave.index](document/images_readme/wave.index.png)
@@ -190,27 +196,27 @@ Wave accessibility evaluation tool showed 1 error on contact.html
 ![wave.404](document/images_readme/wave.404.png)
 
 ### Unfixed Bugs
-WAVE <https://wave.webaim.org/> showed one contrast error on button for contact form in contact.html. 
+
+WAVE <https://wave.webaim.org/> showed one contrast error on button for contact form in contact.html.
 The color for button were changed from #ffffff to #40393A without any success to fix the error for contrast.
-
-
 
 ## Deployment
 
   The site was deployed to GitHub pages. The steps to deploy are as follows:
-  * In the GitHub repository, navigate to the Settings tab
-  * From the menu on left select 'Pages'
-  * From the source section drop-down menu, select the Main Branch
-  * Click 'Save'
-  * A live link to the live website will be displayed 
+
+* In the GitHub repository, navigate to the Settings tab
+* From the menu on left select 'Pages'
+* From the source section drop-down menu, select the Main Branch
+* Click 'Save'
+* A live link to the live website will be displayed
 
 The live link can be found here - <https://saratisell.github.io/easy-baking/>
 
 ## Credits
 
-### Code 
+### Code
 
-* https://codepen.io/sarus/pen/PJGPmy
+* <https://codepen.io/sarus/pen/PJGPmy>
   * Code borrowed from this page to put images in a row.
 
 * <https://stackoverflow.com/questions/38903300/how-to-i-have-text-partially-overlay-my-image>
@@ -220,7 +226,6 @@ The live link can be found here - <https://saratisell.github.io/easy-baking/>
   * HTML - How to add a favicon
   * HTML - Social Network links
   * CSS - Asterisk wildcard selector to override default styles added from the browser
-
 
 ### Content
 
@@ -233,6 +238,6 @@ Images for content were borrowed from these sites
 
 * <https://www.pexels.com>
 
-* https://unsplash.com
+* <https://unsplash.com>
 
 * <https://www.canva.com/>
