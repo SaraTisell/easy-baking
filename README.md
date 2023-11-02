@@ -146,7 +146,7 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 ### Lighthouse Testing
 
 ![Lighthouse-desktop](document/images_readme/test.desktop.2.png)
-
+<br>
 ![lighthouse-mobile](document/images_readme/testing-mobile.png)
 
 ### W3C HTML Validator
