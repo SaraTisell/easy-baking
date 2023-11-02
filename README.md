@@ -148,6 +148,7 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 ![Lighthouse]
 
 ### W3C HTML Validator
+Html Validator showed no error
 
 ![html.index](document/images_readme/html.index.png)
 ![html.recipes](document/images_readme/html.recipes.png)
@@ -155,9 +156,16 @@ Will contain a contact form that allowes users to contact Easy Baking regarding 
 ![html.thanks](document/images_readme/html.thanks.png)
 ![html.404](document/images_readme/html-404.png)
 
-* W3C CSS Validator (Jigsaw)
+### W3C CSS Validator (Jigsaw)
+Css Validator showed no error
 
-* WAVE 
+![css.index](document/images_readme/css.index.png)
+![css.recipes](document/images_readme/css.-recipes.png)
+![css.contact](document/images_readme/css-contact.png)
+![css.thanks](document/images_readme/css-thanks.png)
+![css.404](document/images_readme/css-404.png)
+
+### WAVE
 
 ## Deployment
 
